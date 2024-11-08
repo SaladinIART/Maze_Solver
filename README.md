@@ -33,58 +33,44 @@ Installation
 To run this project, ensure Python and Pygame are installed on your system. Follow these steps:
 
 1. Clone the Repository:
-    git clone https://github.com/SaladinIART/Maze_Solver.git
-    cd Maze_Solver
+git clone https://github.com/SaladinIART/Maze_Solver.git
+cd Maze_Solver
 
-2. Install Dependencies: Use pip to install Pygame:
-    pip install pygame
+3. Install Dependencies: Use pip to install Pygame:
+pip install pygame
 All dependencies will be installed automatically.
 
-Fork the Repository
-Create a Branch for your feature or bug fix:
-bash
-Copy code
-git checkout -b feature-name
-Commit Your Changes:
-bash
-Copy code
-git commit -m "Describe your feature or fix"
-Push to Your Branch:
-bash
-Copy code
-git push origin feature-name
-Open a Pull Request on the main repository.
 Usage Instructions
 ------------------
 Once the dependencies are installed, the project can be run using the following steps:
 
 Open a Terminal: Navigate to the project directory.
-  Run the Main Script:
+* Run the Main Script:
   python Maze_Solver_v1.31.py
 
 3. Keyboard Controls:
-  Press B to run Breadth-First Search (BFS).
-  Press D to run Depth-First Search (DFS).
-  Press A to run A Search*.
+  * Press B to run Breadth-First Search (BFS).
+  * Press D to run Depth-First Search (DFS).
+  * Press A to run A Search*.
 
 4. Maze Visualization: The maze will be displayed, and the selected algorithm will begin solving it, visualizing the traversal in real time.
 
 Algorithm Explanations
 ----------------------
   1. Breadth-First Search (BFS)
-    Description: BFS explores the maze level by level, ensuring that the shortest path is found. It uses a queue to manage the nodes.
-    Strengths: Guarantees the shortest path in an unweighted maze.
-    Weaknesses: Can be memory-intensive for large mazes.
+    * Description: BFS explores the maze level by level, ensuring that the shortest path is found. It uses a queue to manage the nodes.
+    * Strengths: Guarantees the shortest path in an unweighted maze.
+    * Weaknesses: Can be memory-intensive for large mazes.
 
   3. Depth-First Search (DFS)
-    Description: DFS dives deep into paths before backtracking, using a stack structure.
-    Strengths: Memory-efficient compared to BFS.
-    Weaknesses: Does not guarantee the shortest path; may explore inefficient routes.
+    * Description: DFS dives deep into paths before backtracking, using a stack structure.
+    * Strengths: Memory-efficient compared to BFS.
+    * Weaknesses: Does not guarantee the shortest path; may explore inefficient routes.
   
   4. A* Search
-    Description: A* uses a heuristic (such as the Manhattan distance) to guide the search, balancing efficiency and accuracy.
-    Strengths: Efficient for finding the shortest path in a weighted maze.
-    Weaknesses: Heuristic choice can impact performance.
+    * Description: A* uses a heuristic (such as the Manhattan distance) to guide the search, balancing efficiency and accuracy.
+    * Strengths: Efficient for finding the shortest path in a weighted maze.
+    * Weaknesses: Heuristic choice can impact performance.
 
 File Descriptions
 -----------------
@@ -106,11 +92,11 @@ Contributions are welcome! Please follow these steps if you'd like to contribute
 
   1. Fork the Repository
   2. Create a Branch for your feature or bug fix:
-     git checkout -b feature-name
+     * git checkout -b feature-name
   3. Commiyt your changes:
-     git commit -m "Describe your feature or fix"
+     * git commit -m "Describe your feature or fix"
   4. Push to your branch:
-     git push origin feature-name
+     * git push origin feature-name
   5. Open a Pull Request on the main repository.
 
 License
