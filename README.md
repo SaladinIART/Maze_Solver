@@ -40,13 +40,27 @@ To run this project, ensure Python and Pygame are installed on your system. Foll
     pip install pygame
 All dependencies will be installed automatically.
 
+Fork the Repository
+Create a Branch for your feature or bug fix:
+bash
+Copy code
+git checkout -b feature-name
+Commit Your Changes:
+bash
+Copy code
+git commit -m "Describe your feature or fix"
+Push to Your Branch:
+bash
+Copy code
+git push origin feature-name
+Open a Pull Request on the main repository.
 Usage Instructions
 ------------------
 Once the dependencies are installed, the project can be run using the following steps:
 
 Open a Terminal: Navigate to the project directory.
   Run the Main Script:
-    python Maze_Solver_v1.31.py
+  python Maze_Solver_v1.31.py
 
 3. Keyboard Controls:
   Press B to run Breadth-First Search (BFS).
